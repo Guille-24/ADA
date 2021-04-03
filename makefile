@@ -1,12 +1,12 @@
-#Javier Martinez Molina 20096647Y
+#Guillermo Jiménez Martínez 71721984A
 
 OPTS = -Wall -O3 -std=c++0x
 
-make: maxsum
+make: potter
 
-maxsum: maxsum.cc
-	g++ ${OPTS} -o maxsum maxsum.cc	 
+potter: potter.cc
+	g++ ${OPTS} -o potter potter.cc	 
 
-tar: maxsum.cc makefile
-	tar cvfz 20096647Y.tar.gz maxsum.cc makefile
+tar: potter.cc makefile
+	tar cvfz 71721984A.tar.gz potter.cc makefile
  
